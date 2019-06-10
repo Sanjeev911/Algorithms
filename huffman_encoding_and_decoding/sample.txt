@@ -1,0 +1,23 @@
+
+hello everyone .This is a simple text file .
+This file is meant to test the huffman encoding source code.
+
+The compression and deccompression involves following steps
+
+ # huffman encoding
+
+ #-*-*-*-**-**-**-*-**-**-**-**-*  COMPRESSION *-**-**-**-**-**-**-**-**-**-*
+ # step 1: calcualte the frequency of each character from the document
+ # step 2: create a heap of the nodes based on the frequency
+ # step 3: find the character encoding of each of the characters
+ # step 4: replace the characters with the encoded format
+
+ #-*-*-*-**-**-**-*-**-**-**-**-*  DE-COMPRESSION *-**-**-**-**-**-**-**-**-**-*
+# step 1: read the bin file byte by bite
+# step 2: decode each byte into espective binary notation
+# step 3: extract the padding info out of the last bite added , and the remove the padded characters
+# step 4: decode the text using reverse_mapping dictionary
+# step 5: write the decoded string into "decompressed-"+filename+".txt"
+
+
+Thank You.
