@@ -86,5 +86,5 @@ if __name__ == '__main__':
     print("----------------------------------------------------")
 
     print("Percentage Similarity as follows:",'\n')
-    for item in reversed(sorted(percentage_similarity.items(), key = lambda kv:(kv[1], kv[0]))):
-        print(item[0]," Matches : ","{:.3f}".format(item[1]*100) , "%")
+    for i in reversed(sorted(percentage_similarity.items(), key = lambda kv:(kv[1], kv[0]))):
+        print(i[0]," Matches : ","{:.3f}".format(i[1]*100) , "%")
